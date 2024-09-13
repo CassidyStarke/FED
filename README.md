@@ -16,10 +16,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Cassidy Starke
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Blauw
 
   #### Je focus:
   hier je focus (kies uit responsive óf surface plane)
@@ -36,18 +36,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  (https://www.zara.com/nl/)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Beginpagina  
+  <img src="images/cassidy/homepage.png" width="375px" alt="de homepage van de Zara.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  detail pagina
+  <img src="images/cassidy/detailpagina.png" width="375px" alt="Een detail pagina van een artikel (ik weet nog niet zeker of ik dit artikel ook daadwerkelijk ga uitwerken). ">
  
 </details>
-
+Ik wil de webshop pagina's zo goed meogelijk namaken en/ of verbeteren. ik ben niet zo heel goed in coderen, ik begin rust (blauwe piste), wie weet wil je later nog iets meer uitdagens doen.
 
 
 ## Toegankelijkheidstest 1/2 (week 1)
@@ -57,6 +57,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  - de site werkt niet heel handig met een screenreader, het stopt en leest onnodige informatie voor. 
 
 </details>
 
@@ -68,13 +69,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="images/cassidy/homepage2.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="images/cassidy/navigatie.png width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="images/cassidy/zoekbalk.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -86,6 +87,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
+
+  ### Hoorcollege:
+
+  We hebben een leerzame lezing gekregen van Darice de Cube, ze vertelde haar verhaar over haar beperkingen en hoe ze hier mee leeft. Zij is doof en vertelde ons hoe zij tewerk gaat met bepaalde "dagenlijkse" dingen zoals een omroep van de NS op het station of zelfs zo iets wat voor ons een heel eenvoudig telefoontje is. 
+
+  De tweede hoorcollege werd gegeven door Bram, Hij is blind en deelde een beetje over zijn leven. Hij begon met vertellen over hoe het internet gebruik gaat voor hem  met een screenreader. Het is heel erg noodzakelijk voor hem en vele nadere blinden of slechtziewnde dat een website gelzen kan worden door een screen reader. De stem is niet alijd even handig maar met oefening kan je er heel veel mee. 
+
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -108,6 +116,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - punt 2
   - nog een punt
   - ...
+
 
 </details>
 
@@ -154,7 +163,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - 
 
 </details>
 
