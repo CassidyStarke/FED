@@ -6,6 +6,10 @@
     scroll-behavior: smooth;
 }
 
+a:focus {
+    outline: 2px solid rgb(228, 141, 206); 
+}
+
 ::selection{
     background-color: rgb(230, 190, 211);
 }
@@ -26,45 +30,41 @@ body {
     position: relative;
 }
 
-/*
-@media (prefers-color-scheme: dark){
-    body {
-        background-color: rgb(176, 176, 176);
-        color: white;
-    }
-    img {
-        filter: brightness(0.8);
-    }
 
-    button{
-        color: grey;
-    }
-}
-
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: white;
-        color: rgb(54, 54, 54);
-    }
-}
-*/
-
-header img {
-    margin-top: 1em;
-    max-width: 180px; 
-    height: 5em;
+header img:first-of-type {
+    padding-top: 2em;
+    max-width: 20%; 
+    height: 7em;
     order: 2;
     align-items: start;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
 }
+
+header img:last-of-type {
+    display: grid;
+    max-height: 3em;
+    order: 3;
+    margin-left: 5em;
+}
+
+
 
 header{
     display: flex;
     justify-content:space-between;
     align-items:center;
-    position:sticky;
+    position:fixed;
     z-index: 100%;
+    width: 100%;
 
+}
+
+header p{
+    display: grid;
+    order: 4;
+    font-size: 1em;
 }
 
 
@@ -81,6 +81,25 @@ header nav{
     transition:translate 0.3s;
 }
 
+header ul li{
+    list-style-type: none;
+    color: black;
+    margin-top: 2em;
+    font-weight: bolder;
+    font-size: 2;
+}
+
+header a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    margin-top: 3em;
+    font-weight: bolder;
+    font-size: 2;
+}
+
+
+
 nav.toonMenu {
     translate: 0% 0%;
 }
@@ -88,7 +107,14 @@ nav.toonMenu {
 header button{
     height: 3em;
     order: -1;
-    margin-top: 2em;
+    margin-top: 1em;
+    margin-right: 2em;
+    background-color: transparent;
+    font-weight: bold;
+    border: 0;
+    font-size: 1em;
+    position: sticky;
+    padding: 0;  
 }
 
 
@@ -96,7 +122,8 @@ main img {
     display: flex;
     width: 100%; 
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 0;
+    transition: none !important;
 }
 
 form {
@@ -123,52 +150,61 @@ form input {
 }
 
 
-footer {
-    position: relative;
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+footer{
     text-align: center;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
-footer p, footer nav {
-    display: flex;
-    color: black;
-    font-size: .7em;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-footer nav ul {
-    list-style-type: none;
+footer ul{
+    list-style: none;
     padding: 0;
-    display: flex;
+    margin: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
 }
 
 
+footer ul li{
+    display: inline;
+    margin-right: 15px;
+}
 
+li a:hover {
+    text-decoration: underline ; 
+}
 
+/*PAGINA 2*/
 
+.page2 body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.pagina2 header{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    background-color: white;
+}
 
-
-
-
-.knittop{
+.knittop {
  justify-content: center;
  display: flex;
- width: 80%;
+ width: 40%;
  flex-direction: column;
  margin-left: auto;
  margin-right: auto;
+ margin-top:10% ;
 }
 
 
 .informantieartikel{
     display: flex;
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -193,6 +229,11 @@ p{
     padding-top: 20px;
 }
 
+.naamartikel{
+    display: flex;
+    margin: 0;
+}
+
 button{
     margin-top: 20px;
     font: .5em;
@@ -200,30 +241,68 @@ button{
     text-align: center;
 }
 
+.heart{
+    align-items: center;
+    font-size: 2em;
+    border: 0;
+    background-color: transparent;
+    margin: 0;
+    padding: 0%;
+    border: 0;
+}
+
+
 .materiaal{
     font-size: .9em;
     text-decoration: none;
-    position: relative;
+    list-style-type: none;
 }
+
 
 .last{
-    font-size: .8em;
-    margin-left: 35px;
+    display: grid;    
+    flex-wrap: wrap;
+    
 }
 
-.last img{
-    display: flex;
-    max-width: 30%;
-    flex-direction: row;
-    margin-top: 0px;
-    justify-content: center;
+.lasttext{
     font-size: .8em;
+    margin-top: 10px;
     margin-left: 35px;
+    margin-bottom: 10px;
+    display: block;
+    
 }
 
 
+.lastimg {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.lastimg img {
+    max-width: 20%; 
+    height: auto; 
+    border: solid 1px black;
+    margin: 0%;
+    transition:.2s;
+}
+
+.lastimg img:hover{
+    transform: scale(1.2);
+}
+
+.knittop img:hover{
+    transform: scale(1.2);
+}
 
 
-/*
-nav ul li a:hover {
-    text-decoration: underline;
+.footerpagina2{
+    margin-top: 1em;
+    font-size: 1.5em;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+

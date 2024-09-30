@@ -1,3 +1,6 @@
+//Code met hulp van de uitleg uit de les//
+
+
 // Zoek de knop in de header die het menu opent
 var openButton = document.querySelector("header > button");
 
